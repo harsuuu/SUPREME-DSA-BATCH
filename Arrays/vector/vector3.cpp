@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
 int n;
-cout<<"Enter how many number :"<<endl;
+cout<<"Enter how many number you want to store :"<<endl;
 cin>>n;
 
 vector<int>arr(n);

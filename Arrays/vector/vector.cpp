@@ -9,7 +9,7 @@ vector<int>arr;
 
 cout<<arr.size()<<endl;    //means how many elements in vector.
 
-cout<<arr.capacity()<<endl;   //means how many element we can store.
+cout<<arr.capacity()<<endl;   //means how many element we can store means how many blocks in an array.
 
 //insert
 
@@ -32,6 +32,11 @@ for(int i=0;i<arr.size();i++)
 {
     cout<<arr[i]<<endl;
 }
+
+cout<<"Ab print hoga ki array empty hai ki nhi"<<endl;
+
+cout<<arr.empty()<<endl;   // 1 means positive and 0 means negative.
+
 
 return 0;
 }

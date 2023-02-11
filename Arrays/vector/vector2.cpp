@@ -5,11 +5,9 @@ int main(){
 
 //create vector
 int n;
-cout<<"Enter the value of n";
+cout<<"Enter how many element you want to store in array :";
 cin>>n;
-vector<int>arr(n,101);
-
-cout<<arr.size()<<endl;   
+vector<int>arr(n,101);   //n element hai jiski value 101 hai.
 
 //print
 
