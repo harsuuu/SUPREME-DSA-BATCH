@@ -4,7 +4,7 @@ using namespace std;
 int main(){
 //create two vector
 vector<int>arr{1,2,3,3,4,5};
-vector<int>brr{3,4,5,6};
+vector<int>brr{3,4,4,5,6};
 //answer vector
 vector<int>ans;
 
